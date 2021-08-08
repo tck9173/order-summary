@@ -1,3 +1,27 @@
 body {
     background-image: url("./images/pattern-background-desktop.svg");
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.mainDiv {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.orderOptions {
+    width: 100%;
+}
+
+.planInfo {
+    display: flex;
+}
+
+.processButtons {
+    display: flex;
+    flex-flow: column;
 }
