@@ -1,7 +1,8 @@
 body {
     background-image: url("./images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    align-content: center;
     justify-content: center;
 }
 
@@ -10,7 +11,18 @@ body {
     flex-flow: column;
     align-content: center;
     align-items: center;
-    width: 400px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.headerpic {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.subDiv {
+    padding: 50px;
+    text-align: center;
 }
 
 .orderOptions {
@@ -19,6 +31,10 @@ body {
 
 .planInfo {
     display: flex;
+}
+
+.planCost {
+    display:flex;
 }
 
 .processButtons {
